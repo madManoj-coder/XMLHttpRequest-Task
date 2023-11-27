@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XMLHttpRequest Task</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <h1 class="p-4 text-center bg">XMLHttpRequest Task</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <table class="table table-bordered mt-5 color" id="table-todo">
+          <thead>
+            <th>Sr.No</th>
+            <th>Title</th>
+            <th>
+              <select id="statusFilter">
+                <option id="all" value="all">All</option>
+                <option id="completed" value="true">Completed</option>
+                <option id="inComplete" value="false">Incomplete</option>
+              </select>
+            </th>
+          </thead>
+          <tbody id="todoBody">
+            <!-- <tr>
+              <td>manoj</td>
+              <td>manoj</td>
+              <td>manoj</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

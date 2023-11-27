@@ -1,0 +1,24 @@
+th {
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
+}
+
+body{
+    background:linear-gradient(45deg,cyan,gold,wheat);
+}
+
+.bg{
+    background-color: aquamarine;
+    color: orange;
+}
+
+.color{
+    background:linear-gradient(90deg, yellowgreen,pink,orchid);
+}
+
+#statusFilter{
+    background-color: cyan;
+}
